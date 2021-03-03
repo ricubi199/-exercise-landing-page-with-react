@@ -1,41 +1,34 @@
-# Hello World with React boilerplate
-<p>
-  <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-hello.git"><img src="https://raw.githubusercontent.com/4GeeksAcademy/react-hello/master/open-in-gitpod.svg?sanitize=true" />
-  </a>
+# ![alt text](https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=breathecode,32) Landing page con React.js
+
+```
+🔥 Este ejercicio esta diseñado para realizase en grupos de 2 o maximo 3 personas.
+   Si colaboras, discutes e intercambias ideas absorberás el contenido más rápidamente.
+```
+
+<p align="center">
+  <img height="200" src="https://github.com/breatheco-de/exercise-landing-page-with-react/blob/master/preview.gif?raw=true" />
 </p>
 
-This template is similar to create-react-app but it's meant for 4Geeks Academy students.
+Tecnologías: HTML, CSS, JS, React.
 
-##### Download the boilerplate using git
+Vamos a construir [este landing page](https://blackrockdigital.github.io/startbootstrap-heroic-features/) pero utilizando react y components funcionales (de tipo funcion).
 
-```
-$ git clone https://github.com/4GeeksAcademy/react-hello.git
-$ cd react-hello
-```
+La idea es dividir los componentes de Bootstrap en diferentes componentes de función, todos se importarán en el componente principal Home.js
 
-##### and install the npm package:
-```
-$ npm install
-```
+***Por favor use los Componentes de Función para esto***
 
-## Start coding!
+Nota: las tarjetas tienen un contenido diferente, piense DRY (no se repita) y declare solo ***un*** componente y use ```props``` para manejar contenido diferente.
 
-For Windows, Mac, Linux or Gitpod, start the webpack server with live reload:
-- `$ npm run start`
+## Como empezar este landing page?
 
-You can update the `styles/index.scss` or `js/index.js` depending on your needs.
-Add more files into your, `./src/js/components` or styles folder as you need them.
+1. Tomate unos minutos para analizar 🤯 la imagen y dibuja tu estrategia sobre ella, marca los componentes que vas a desarrollar:
 
-## Publish your website!
+![Strategy for building a landing page with react](https://github.com/breatheco-de/exercise-landing-page-with-react/blob/master/strategy.gif?raw=true)
 
-This boilerplate is 100% compatible with the free [github pages](https://pages.github.com/) and [vercel](https://vercel.com/) hosting.
+Lo que realmente queremos lograr con este ejercicio es que aprendas a decidir que components vas a crear, ¿Que crees que deba ser un componente? ¿Qué se va a reutilizar? ¿Cómo puedes hacer que tu código quede realmente ordenado y prevenir futuros errores?: `<Jumbotron />`, `<Navbar />`, `<Card />`.
 
-It takes just 2 minutes to deploy, [click here to start the process](https://github.com/4GeeksAcademy/react-hello/blob/master/docs/DEPLOY.md).
+2. Una vez terminada la estrategia puedes empezar a codigicar, empieza tu proyecto a partir de un template (plantilla) de React.
+3. ¡Empieza a programar 🎊!
 
-## Other features
-
-- Automatic Code Formatting: Use of [Prettier](https://prettier.io/) for automatic code indentation and formatting.
-- Error reporting: Use of [eslint](https://eslint.org/) for better error reporting.
-- Hot Deploy: Use of [Webpack Development Server](https://webpack.js.org/configuration/dev-server/) for hot deploy and live reload.
-- One-command publish of the code to github pages with `npm run deploy:github`.
-- Babel 7 (really fast).
+¡Eso es! Comience a codificar su primer sitio web React.
+¡Que te diviertas!
