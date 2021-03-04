@@ -8,7 +8,6 @@ import "bootstrap";
 
 //include your index.scss file into the bundle
 import "../styles/index.scss";
-import "../styles/style.css";
 
 //import your own components
 import { Main } from "./component/main";
